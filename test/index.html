@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="top">
+            <div class="logo">
+                <h1>logo</h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#"><img src="./img/Group.png" alt=""></a></li>
+                    <li><a href="#"><img src="./img/Group.png" alt=""></a></li>
+                    <li><a href="#"><img src="./img/Group.png" alt=""></a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</header>
+<section class="items">
+    <div class="container">
+        <div class="card">
+            <div class="item">
+                <div class="pic">
+                    <img src="./img/kids.png" alt="">
+                </div>
+            </div>
+            <div class="description">
+                <div class="name">
+                    <h2>Пижама для девочек</h2>
+                    <p>Арт. 02765/46</p>
+                </div>
+                <div class="reviews">
+                    <a href="#">Отзывы</a>
+                    <div class="stars">
+                        <a href="#"><img src="./img/star.png" alt=""></a>
+                        <a href="#"><img src="./img/star.png" alt=""></a>
+                        <a href="#"><img src="./img/star.png" alt=""></a>
+                        <a href="#"><img src="./img/star.png" alt=""></a>
+                        <a href="#"><img src="./img/eStar.png" alt=""></a>
+                    </div>
+                    <a href="#">14 отзывов</a>
+                </div>
+                <div class="price">
+                    <p>800 ₽</p>
+                    <strike>1 500 ₽</strike>
+                    <img src="./img/Group.png" alt="">
+                </div>
+                <div class="discount">
+                    <button>скидка -36%</button>
+                    <button>акция -20%</button>
+                </div>
+                <div class="choose">
+                    <label>
+                        <select>
+                            <option>Выбрать размер</option>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                    </label>
+                    <p>Определить размер</p>
+                </div>
+                <div class="add">
+                    <form>
+                        <label>
+                            <input type="button" class="btn" onclick="incrementValue()" value="+" />
+                            <input type="number" id="number" value="0" />
+                            <input type="button" class="btn" onclick="decrementValue()" value="-" />
+                        </label>
+
+                    </form>
+                    <div class="basket">
+                        <button>Добавить в корзину</button>
+                        <button><img src="img/love.png" alt=""></button>
+                    </div>
+                </div>
+                <div class="buy">
+                    <a href="#">Купить в 1 клик</a>
+                </div>
+                <div class="over">
+                    <div class="first">
+                        <a href="#"><img src="img/shirt.png" alt="">Описание товара</a>
+                        <a href="#"><img src="img/time.png" alt="">Доставка и возврат</a>
+                        <a href="#"><img src="img/card.png" alt="">Способы оплаты</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="link">
+            <a href="#">Посмотреть все стили</a>
+        </div>
+        <div class="photo">
+            <div class="left">
+                <a href="#"><img src="img/girl.png" alt=""></a>
+            </div>
+            <div class="right">
+                <div class="top">
+                    <img src="img/2.png" alt="">
+                    <img src="img/1.png" alt="">
+                </div>
+                <div class="bottom">
+                    <img src="img/3.png" alt="">
+                    <img src="img/4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="bottom">
+            <div class="links">
+                <div class="cols">
+                    <h3>покупателям</h3>
+                    <ul>
+                        <li>Каталог</li>
+                        <li>Акции</li>
+                        <li>Бренды</li>
+                    </ul>
+                </div>
+                <div class="cols">
+                    <h3>о нас</h3>
+                    <ul>
+                        <li>О компании</li>
+                        <li>Новости</li>
+                        <li>Команда</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mail">
+                <h3>Узнайте первыми о новинках и акциях</h3>
+                <label>
+                    <input type="text" placeholder="Адрес электронной почты">
+                </label>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1390px;
+    margin: 0 auto;
+}
+header{
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+header .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo h1{
+    text-transform: uppercase;
+    padding: 12px 26px;
+}
+header .nav ul{
+    display: flex;
+}
+header .nav li{
+    list-style: none;
+    padding-right: 20px;
+}
+header .nav img{
+    width: 25px;
+}
+.items .card {
+    margin-top: 50px;
+    padding-top: 24px;
+}
+.items .reviews{
+    display: flex;
+}
+.items .reviews a{
+    color: #333333;
+    text-decoration: none;
+}
+.items .reviews .stars{
+    margin: 0 13px;
+}
+.items .item img{
+    width: 686px;
+}
+.items .card {
+    display: flex;
+}
+.items .description{
+    width: 50%;
+    padding: 24px 40px;
+}
+.items .description .name p{
+    padding: 10px 0 20px;
+    color: grey;
+}
+.items .description .price{
+    display: flex;
+    align-items: center;
+}
+.items .description .price p{
+    font-size: 24px;
+    font-weight: 700;
+}
+.items .description .price strike{
+    padding: 0 12px 0 20px;
+}
+.items .description .discount{
+    padding: 15px 0 30px;
+}
+.items .description .discount button{
+    border: solid 2px #E5E5E5;
+    padding: 4px 8px;
+    background: none;
+}
+.items .description .discount button:hover{
+    background: beige;
+}
+.items .description .choose select{
+    width: 300px;
+    padding: 12px 16px;
+    color: #333;
+    outline: none;
+}
+.items .description .add{
+    display: flex;
+}
+.items .description .add input{
+    background: #F2F2F2;
+    border: none;
+}
+.items .description .add #number{
+    padding: 12px 20px;
+    font-size: 14px;
+}
+.items .description .add .btn{
+    padding: 12px 10px;
+}
+.items .description .plus{
+    background: #F2F2F2;
+    display: flex;
+}
+.items .description .choose p{
+    padding: 10px 0 40px;
+}
+.items .description .add button{
+    outline: none;
+    border: none;
+    background: #333;
+    color: #fff;
+    margin: 0 12px;
+    padding: 12px 28px;
+}
+.items .buy{
+    width: 100%;
+    border-bottom: solid 1px #333;
+    padding: 12px 0 29px;
+}
+.items .buy a{
+    color: #333333;
+}
+.items .over img{
+    margin-right: 10px;
+}
+.items .over{
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+}
+.items .over a{
+    display: block;
+    color: #333;
+    padding-bottom: 12px;
+}
+.items .link{
+    text-align: center;
+    padding: 30px 0;
+}
+.items .link a{
+    color: #333333;
+}
+.items .photo{
+    display: flex;
+    justify-content: space-between;
+}
+.items .photo .left{
+    width: 50%;
+}
+.items .photo .right{
+    width: 50%;
+    height: 100%;
+}
+.items .photo img {
+    height: 98%;
+}
+.items .photo img:hover{
+    background: #333333;
+    opacity: 0.7;
+}
+footer{
+    margin: 130px 0;
+}
+footer .bottom{
+    display: flex;
+}
+footer .bottom .links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+footer .bottom .links h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+footer .bottom .links li{
+    list-style: none;
+    padding-top: 10px;
+}
+footer .bottom .mail{
+    width: 50%;
+    text-align: center;
+}
+footer .bottom .mail h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+footer .bottom .mail input{
+    outline: none;
+    width: 70%;
+    border: none;
+    border-bottom: solid 1px #333;
+    padding: 12px 0 12px 16px;
+}
+
+

@@ -1,0 +1,76 @@
+@media (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .items .item img{
+        width: 100%;
+    }
+    .items .photo{
+        display: block;
+    }
+    .items .photo .left{
+        width: 100%;
+    }
+    .items .photo .left img{
+        width: 100%;
+    }
+    .items .photo .right{
+        width: 100%;
+    }
+    .items .right .top{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .items .right .top img{
+        width: 50%;
+    }
+    .items .photo .bottom{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .items .right .bottom img{
+        width: 50%;
+    }
+    .items .description .add {
+        display: inline-block;
+    }
+    .items .description .add button {
+        margin: 0;
+    }
+    .items .add .basket {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+    .items .card{
+        display: block;
+    }
+    .items .description {
+        width: 100%;
+    }
+    footer .bottom {
+        display: inline-block;
+    }
+    footer .bottom .links {
+        width: 100%;
+    }
+    footer .bottom .mail {
+        width: 100%;
+        padding-top: 20px;
+    }
+    footer .bottom .mail h3 {
+        width: 70%;
+    }
+    footer .bottom .mail input {
+        width: 100%;
+        margin-left: 40px;
+    }
+    .items .buy {
+        width: 80%;
+    }
+}
